@@ -6,7 +6,7 @@ function AudioPlayer() {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
   useEffect(() => {
-    audioRef.current = new Audio('/happy-birthday-254480.mp3');
+    audioRef.current = new Audio('https://www.chosic.com/wp-content/uploads/2024/01/happy-birthday-to-you.mp3');
     audioRef.current.loop = true;
   }, []);
 
