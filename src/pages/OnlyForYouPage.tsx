@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Heart, Star, Coffee, Smile, Sun, Moon, Rainbow, Sparkles } from 'lucide-react';
 
 const friendshipQuotes = [
